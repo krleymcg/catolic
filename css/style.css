@@ -1,0 +1,214 @@
+main {
+    width: 100%;
+    padding:90px 0px;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+
+    height: 100%;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    
+    background-color: #FFFFFF;
+    display: inline-flex;
+    width: 95%;
+    height: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo {
+    height: auto;
+    flex-basis: 15%;
+}
+
+.menu {
+    display: flex;
+    flex-basis: 80%;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    height: 115px;
+    float: left;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1f222b;
+    line-height: 115px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+
+}
+
+.link:hover {
+    border-top: #B8084A 3px solid;
+    color: #B8084A;
+  cursor: pointer;
+}
+.boton {
+    flex-basis: 15%;
+    height: 40px;
+    
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    border-radius: 360px;
+}
+
+.inicial {
+    display: inline-flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    height: 80%;
+
+}
+
+.inicial2 {
+   
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.bbb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #110e0e;
+    font: 16px "Nunito" sans-serif;
+}
+.link3 {
+    width: 190px;
+    height: 60px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 60px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: #b8084a;
+    border-radius: 360px;
+   
+    float: left;
+    text-decoration: none;
+        text-align: center;
+        position: relative;
+      
+}
+
+.link2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 45px !important;
+    padding: 25px 50px !important;
+    color: #ffffff;
+    background: #b8084a !important;
+    min-width: 220px;
+    line-height: 23px;
+    margin: 0 11px 20px 11px;
+    width: auto;
+    height: auto;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0.08em;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal;
+    border: none;
+    border-radius: 360px;
+}
+.botton {
+    text-transform: capitalize;
+    font-weight: 100%;
+    font-size: 45px !important;
+    padding: 25px 50px !important;
+    color: #ffffff;
+   
+    border-radius: 360px;
+    height: 55px;
+
+}
+.icone {
+    width: 60px;
+    height: 61px;
+    position: relative;
+    margin: 27px 0 0 36px;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: top;
+}
+.search-form {
+    min-width: inherit;
+    width: 60px;
+    height: 61px;
+    float: right;
+    background: url(../img/LUPA1.webp) no-repeat center center;
+    background-size: 21px auto;
+    box-shadow: none;
+    border-radius: 360px;
+    border: none;
+    text-indent: -9999px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    background-color:rgb(198, 198, 198) ;
+}
+.search-form:hover {
+    height: 61px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #111b47;
+    line-height: 16px;
+    background: none;
+    border: none;
+    border-radius: 360;
+    cursor: pointer;
+    width: 299px;
+    background-color: rgb(198, 198, 198);
+    position: relative;
+}
+.link3:hover {
+    float: left;
+    border-radius: 360px;
+    border: #110e0e double 1px;
+    cursor:pointer;
+}
+.link2:hover {
+    float: left;
+    border-radius: 360px;
+    border: black solid 1px;
+    cursor:pointer;
+}

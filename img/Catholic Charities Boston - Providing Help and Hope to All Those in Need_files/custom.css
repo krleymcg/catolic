@@ -1,0 +1,34 @@
+/*** 
+Note: Google Map of Locations: 
+https://www.google.com/maps/d/u/0/edit?mid=1x3VLhe7-DpErMY1Z1MMB41LTp0nHLsmk&usp=sharing 
+***/
+
+.imgl-tooltips * { 
+    font-family: inherit;
+    font-family: "Nunito", sans-serif; 
+    color: #fff; 
+    text-align: left;
+}
+
+.imgl-tooltips .imgl-tooltip-form .imgl-tooltip a, .imgl-tooltips .imgl-tooltip-form .imgl-tooltip p { font-size: 2.5em; line-height: 1.3; font-weight: normal; }
+
+.imgl-tooltips .imgl-tooltip-form .imgl-tooltip h3, .imgl-tooltips .imgl-tooltip-form .imgl-tooltip .h3 { font-size: 3.1em; line-height: 1.2; font-weight: bold; }
+
+.imgl-tooltips .imgl-tooltip-form .imgl-tooltip { padding: 2em; max-width: 420px; }
+
+.imgl-tooltips .imgl-tooltip-form { box-shadow: 0 0 20px #ffffff55 !important; background: #262626; border-radius: 30px !important; }
+
+.imgl-map .imgl-infobox { display: none; }
+
+.imgl-map-1::after {
+  /*  content: "For a full list, visit our <a href='#'>Locations</a> page.";
+    font-size: 0.8em;*/
+}
+.imgl-map-1 {
+    /*margin: -40px 0 0px;*/
+}
+.imgl-map-1+p{font-size: 0.8em;}
+  /* added to fix issue after plugin updates */
+.ul-alt ul.imgl-markers li:before, .ul-alt ul.imgl-markers li:after{display: none;}
+.ul-alt ul.imgl-markers{display:block;padding:0; margin:0;}
+.ul-alt ul.imgl-markers li{display:block;padding:0; margin:0;position: inherit;}
